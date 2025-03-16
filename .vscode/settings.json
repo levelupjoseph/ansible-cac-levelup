@@ -56,5 +56,12 @@
   "ansible.hover.documentation": true,
   "ansible.hover.module": true,
   "ansible.hover.task": true,
-  "ansible.hover.variable": true
+  "ansible.hover.variable": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true
+  },
+  "yaml.schemas": {
+    "https://json.schemastore.org/ansible-playbook.json": "/*.yml"
+  }
 }
