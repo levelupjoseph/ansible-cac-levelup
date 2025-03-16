@@ -17,7 +17,7 @@
   "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -44,5 +44,17 @@
   "ansible.lightspeed.enabled": true,
   "ansible.lightspeed.suggestions.enabled": true,
   "ansibleServer.trace.server": "messages",
-  "ansible.ansible.reuseTerminal": true
+  "ansible.ansible.reuseTerminal": true,
+  "ansibleLint.enabled": true,
+  "ansibleLint.arguments": ["--exclude", "roles", "--exclude", "tests"],
+  "ansible.useFullyQualifiedCollectionNames": true,
+  "ansible.validation.lint": true,
+  "ansible.validation.lintOnSave": true,
+  "ansible.validation.run": "onType",
+  "ansible.completion.resolveModules": true,
+  "ansible.completion.resolveRoles": true,
+  "ansible.hover.documentation": true,
+  "ansible.hover.module": true,
+  "ansible.hover.task": true,
+  "ansible.hover.variable": true
 }
